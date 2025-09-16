@@ -17,7 +17,7 @@ SEND_TIMES = [(7, 30), (19, 0)]  # ráno 07:30, večer 19:00
 
 # filtry
 ONLY_HIGH_IMPACT = True     # posílej jen High
-INCLUDE_MEDIUM = False      # pokud chceš i Medium, dej True
+INCLUDE_MEDIUM = True      # pokud chceš i Medium, dej True
 
 intents = discord.Intents.default()
 client = discord.Client(intents=intents)
